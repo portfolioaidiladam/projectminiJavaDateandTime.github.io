@@ -8,7 +8,7 @@ public class DateTest {
 
   @Test
   void create() {
-
+    // membuat date
     var date1 = new Date();
     var date2 = new Date(System.currentTimeMillis());
     var date3 = new Date(339958800000L);
